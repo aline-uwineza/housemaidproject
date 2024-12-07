@@ -33,12 +33,12 @@ const Findhousemaid = () => {
         <div style={styles.circle}></div>
       </div>
       <div style={styles.content}>
-        <h2 style={styles.title}>Find Your Booking</h2>
+        <h2 style={styles.title}>Find Your recruit</h2>
         <div style={styles.searchContainer}>
           <input
             style={styles.input}
             type="text"
-            placeholder="Enter your booking confirmation code"
+            placeholder="Enter your recruitment confirmation code"
             value={confirmationCode}
             onChange={(e) => setConfirmationCode(e.target.value)}
           />
@@ -49,7 +49,7 @@ const Findhousemaid = () => {
         {error && <p style={styles.error}>{error}</p>}
         {bookingDetails && (
           <div style={styles.details}>
-            <h3 style={styles.sectionTitle}>Booking Details</h3>
+            <h3 style={styles.sectionTitle}>Recruitment Details</h3>
             <p>Confirmation Code: {bookingDetails.bookingConfirmationCode}</p>
             <p>Check-in Date: {bookingDetails.checkInDate}</p>
             <p>Check-out Date: {bookingDetails.checkOutDate}</p>
