@@ -85,8 +85,8 @@ const Allhousemaid = () => {
             ))}
           </select>
         </div>
-        <RoomSearch handleSearchResult={handleSearchResult} />
-        <RoomResult roomSearchResults={currentRooms} />
+        <HousemaidSearch handleSearchResult={handleSearchResult} />
+        <HousemaidResult roomSearchResults={currentRooms} />
         <Pagination
           roomsPerPage={roomsPerPage}
           totalRooms={filteredRooms.length}
