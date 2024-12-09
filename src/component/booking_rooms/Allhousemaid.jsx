@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ApiService from "../../service/ApiService";
 import Pagination from "../common/Pagination";
-import RoomResult from "../common/HousemaidResult";
-import RoomSearch from "../common/HousemaidSearch";
+import HousemaidResult from "../common/HousemaidResult";
+import HousemaidSearch from "../common/HousemaidSearch";
 
 const Allhousemaid = () => {
   const [rooms, setRooms] = useState([]);
