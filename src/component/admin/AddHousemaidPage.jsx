@@ -92,7 +92,7 @@ const AddHousemaidPage = () => {
 
     return (
         <div className="edit-room-container">
-            <h2>Add New Room</h2>
+            <h2>Add New Housemaid to the list</h2>
             {error && <p className="error-message">{error}</p>}
             {success && <p className="success-message">{success}</p>}
             <div className="edit-room-form">
